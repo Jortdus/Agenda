@@ -1,0 +1,29 @@
+$margin: 5px;
+
+
+.agenda {
+  transition: 0.1s all ease-in-out;
+  background-color: whitesmoke;
+  height: 100%;
+  width: 100%;
+  margin-bottom: $margin;
+  padding: $margin;
+  position: relative;
+  cursor: pointer;
+
+
+  &__day {
+    //display: inline;
+    margin-right: $margin;
+    float: left;
+    color: white;
+  }
+
+
+
+}
+p{
+  text-align: center;
+  display: inline-block;
+  padding: 9px;
+}
